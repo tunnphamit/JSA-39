@@ -1,0 +1,33 @@
+
+1. HTML
+- Các thẻ thông dụng trong HTML: html, div, p, a, span, ul(li), img, iframe, ...
+- HTML5: header, footer, section,...
+
+2. CSS
+- Một số thuộc tính cơ bản trong CSS: 
+VD: margin: 5px;
+margin
+padding
+border
+border-radius
+color
+
+display
+justify-centent
+background-color
+
+align-items
+flex-direction
+flex-wrap
+
+background-image
+background-reqeat
+
+3. JS - Javascript - Blockchain
+- Biến
+- Hằng số
+- Hàm
+
+VD: Chon hàm f(x): y = 2x + 3 . x => input (dữ liệu đầu vào), y => output (dữ liệu đầu ra)
+- Hàn là 1 đoạn code đóng gói trong 1 phạm vi nhất định và có thể tái sử dụng lại
+
