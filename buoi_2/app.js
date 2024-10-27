@@ -26,4 +26,9 @@ colorList[0] = "Blue"
 console.log(colorList[0]);
 
 // Khi đẩy 1 dự án mới lên github
-// git init 
+// B1: git init => Khởi tạo git trong dự án
+// B2: git add . => Thêm tất cả file, folder vào dự án
+// B3: git branch -M main => Tạo ra nhánh main
+// B4: git remote add origin https://github.com/tunnphamit/JSA-39.git 
+//    => Tạo kết nối giữa máy của mình và dự án trên github (Tùy từng dự án git sẽ có link khác nhau)
+// B5: git push -u origin main => Đẩy code lên github
