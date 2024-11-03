@@ -75,17 +75,22 @@ let productList = [
     },
 ]
 
-let htmls = ""
-for (let i = 0; i < productList.length; i++) {
-    
-    // Leterial string tromg JS
-    htmls += `
-        <div class="product-item">
-            <h6>${productList[i].name}</h6>
-            <h3>${productList[i].price}</h3>
-            <img src="${productList[i].image}">
-        </div>
-    `
+function showProduct() {
+    let htmls = ""
+    for (let i = 0; i < productList.length; i++) {
+        
+        // Leterial string tromg JS
+        htmls += `
+            <div class="product-item">
+                <h6>${productList[i].name}</h6>
+                <h3>${productList[i].price}</h3>
+                <img src="${productList[i].image}">
+            </div>
+        `
+    }
+
+    productContainer.innerHTML = htmls
 }
 
-productContainer.innerHTML = htmls
+// Gọi hàm
+showProduct()
