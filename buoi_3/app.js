@@ -86,4 +86,3 @@ for (let i = 0; i < foodListLength; i++) {
     // Nối các thẻ li vào thẻ ul
     foodListHTML.appendChild(li)
 }
-
