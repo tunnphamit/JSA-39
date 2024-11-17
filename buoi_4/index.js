@@ -50,7 +50,8 @@ function addNewTodo(event) {
 // Hàm hiển thị danh sách todo
 function showTodoList() {
     // Lấy dữ liệu và biến thành dạng JS
-    let todoListData = JSON.parse( localStorage.getItem("todoList") )
+    // Nếu trong trường hợp localstorage chưa có key là todoList thì todoListData = []
+    let todoListData = JSON.parse( localStorage.getItem("todoList") ) || []
     console.log(todoListData);
     let htmls = ""
     for (let i = 0; i < todoListData.length; i++) {
