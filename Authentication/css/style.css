@@ -1,0 +1,59 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.auth-container {
+    max-width: 680px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.auth-container .banner img {
+    width: 300px;
+}
+
+.auth-container .form-group input {
+    width: 100%;
+    padding: 6px 4px;
+    font-size: 16px;
+}
+
+.red-star {
+    color: red;
+}
+
+.auth-container .form {
+    padding: 12px;
+}
+
+.form .title {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 24px;
+}
+
+.form-group {
+    margin-top: 12px;
+}
+
+.btn-register {
+    background-color: rgb(224, 73, 83);
+    color: #fff;
+    padding: 8px;
+    display: block;
+    width: 100%;
+}

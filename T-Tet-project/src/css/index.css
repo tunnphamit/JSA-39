@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #C7253E;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 0px;
+}
+
+header .menu li {
+    display: inline-block;
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 8px 12px;
+}
+
+.banner {
+    background-image: url("../img/banner.jpg");
+    min-height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}

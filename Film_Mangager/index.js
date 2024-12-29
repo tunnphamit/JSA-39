@@ -1,3 +1,5 @@
+
+
 // Lấy DOM của film-container
 const filmContainer = document.querySelector(".film-container")
 // Tạo biến để lưu đường dẫn đến Mock API

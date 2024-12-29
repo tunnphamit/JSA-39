@@ -25,7 +25,7 @@ const inputTodo = document.querySelector(".inputTodo")
 const btnAdd = document.querySelector(".btn-add")
 const todoListDOM = document.querySelector(".todo-list")
 
-let todoList = []
+let todoList = JSON.parse( localStorage.getItem("todoList") ) || []
 // Hàm xử lý thêm Todo vào Localstorage
 function addNewTodo(event) {
     // Ngăn cho trình duyệt không tải lại trang

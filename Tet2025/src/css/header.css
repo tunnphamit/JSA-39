@@ -1,0 +1,52 @@
+/* Chứa style của phần header */
+header {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 10px 0px;
+    background-color: #fff;
+    position: fixed;
+    top: 0px;
+    left: 0;
+    right: 0;
+}
+
+.menu {
+    list-style: none;
+}
+
+.menu .menu-item a {
+    padding: 8px 10px;
+    text-decoration: none;
+    color: #000;
+    text-transform: capitalize;
+}
+
+.author>div {
+    padding: 0px 10px;
+}
+
+.author .icon-header {
+    font-size: 20px;
+}
+
+.search-box {
+    border: 1px solid #535353;
+    border-radius: 3px;
+}
+
+.search-box input {
+    min-width: 280px;
+    padding: 4px 8px;
+    border: none;
+}
+
+.author .btn {
+    text-decoration: none;
+    color: #5B99C2;
+}
+
+.search-box button {
+    color: #fff;
+    padding: 6px 12px;
+    border: none;
+    background-color: rgb(212, 3, 3);
+}

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng ký</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+    <div class="auth-container">
+
+        <!-- Chứa banner của trang Đăng ký -->
+        <div class="banner">
+            <img src="./img/nike-banner.png" alt="Banner Nike">
+        </div>
+
+        <!-- Chứa form của trang Đăng ký -->
+        <div class="form">
+            <h3 class="title">Đăng ký</h3>
+
+            <form action="" id="register-form">
+                <!-- Trường nhập fullname -->
+                <div class="form-group">
+                    <label for="">
+                        Họ và tên <span class="red-star">*</span>
+                    </label>
+                    <input type="text" class="fullname">
+                </div>
+
+                <!-- Trường nhập email -->
+                <div class="form-group">
+                    <label for="">
+                        Email <span class="red-star">*</span>
+                    </label>
+                    <input type="email" class="email">
+                </div>
+
+                <!-- Trường nhập ngày sinh -->
+                <div class="form-group">
+                    <label for="">
+                        Ngày sinh <span class="red-star">*</span>
+                    </label>
+                    <input type="date" class="date-of-birth">
+                </div>
+
+                <!-- Trường nhập mật khẩu -->
+                <div class="form-group">
+                    <label for="">
+                        Mật khẩu <span class="red-star">*</span>
+                    </label>
+                    <input type="password" class="password">
+                </div>
+
+                <!-- Trường nhập lại mật khẩu -->
+                <div class="form-group">
+                    <label for="">
+                        Nhập lại mật khẩu <span class="red-star">*</span>
+                    </label>
+                    <input type="password" class="repeat-password">
+                </div>
+
+                <!-- Nút đăng ký -->
+                <div class="form-group">
+                    <button type="submit" class="btn-register">
+                        Đăng ký
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="./js/register.js"></script>
+    
+</body>
+</html>
